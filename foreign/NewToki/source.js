@@ -441,7 +441,7 @@ const paperback_extensions_common_1 = require("paperback-extensions-common");
 const NewTokiSettings_1 = require("./NewTokiSettings");
 const NewTokiParser_1 = require("./NewTokiParser");
 const GeneralHelper_1 = require("./GeneralHelper");
-exports.DEFAULT_NEWTOKI_URL = "https://newtoki111.com";
+exports.DEFAULT_NEWTOKI_URL = "https://newtoki166.com";
 exports.NewTokiInfo = {
     name: "NewToki (뉴토끼)",
     icon: "icon.png",
@@ -896,7 +896,7 @@ HomeSection.getIDs = () => HomeSection.IDs.map((id) => id.id);
 HomeSection.getDefaults = () => HomeSection.IDs.filter((id) => id.default);
 const getStateData = (stateManager) => __awaiter(void 0, void 0, void 0, function* () {
     const domain = (yield stateManager.retrieve("domain"))
-        || "https://newtoki111.com";
+        || "https://newtoki166.com";
     const homeSections = (yield stateManager.retrieve("homeSections"))
         || HomeSection.getDefaults();
     return {
